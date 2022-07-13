@@ -1,5 +1,23 @@
-body{
-    background-color: red;
-}
+//@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/functions";
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+// Variáveis
+$primary: red; 
+$secondary: blue;
+$green: green;
+$purple: red;
+
+$font-family-sans-serif: Arial, sans-serif;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+ 
+//@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
